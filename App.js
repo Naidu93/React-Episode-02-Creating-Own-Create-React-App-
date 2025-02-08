@@ -4,6 +4,8 @@
     heading.innerHTML = `This is H2 from JavaScript`;
     document.body.append(heading);
  */
+import React from "react";
+import ReactDOM from "react-dom/client";
 const heading = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, [
     React.createElement("h1", {}, "This h1 from React (Child)"),
